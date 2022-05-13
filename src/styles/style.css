@@ -1,0 +1,46 @@
+*{
+    background-color: aquamarine;
+}
+.navBar{
+    background-color: rgb(2, 53, 53);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.link{
+    background-color: rgb(2, 53, 53);
+    text-decoration: none;
+    color: rgb(142, 125, 125);
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link:hover{
+    color: white;
+}
+.headingContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.addNew{
+    font-size: 22px;
+    padding: 10px;
+    height: 25px;
+    position: relative;
+    right: 75px;
+    top: 20px;
+    width: 185px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    text-align: center;
+   height: 50px;
+}
